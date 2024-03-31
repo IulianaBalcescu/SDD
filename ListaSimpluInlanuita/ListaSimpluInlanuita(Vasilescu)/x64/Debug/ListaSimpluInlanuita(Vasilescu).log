@@ -1,0 +1,3 @@
+﻿  ListaSimpla.c
+C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\ExersareSDD\ListaSimpluInlanuita(Vasilescu)\ListaSimpluInlanuita(Vasilescu)\ListaSimpla.c(162,20): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+  ListaSimpluInlanuita(Vasilescu).vcxproj -> C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\ExersareSDD\ListaSimpluInlanuita(Vasilescu)\x64\Debug\ListaSimpluInlanuita(Vasilescu).exe
