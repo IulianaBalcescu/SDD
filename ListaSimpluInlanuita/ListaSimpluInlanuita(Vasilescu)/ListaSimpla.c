@@ -147,30 +147,34 @@ Angajat angajatCuVarstaMinima(Nod* cap) {
 }
 // Functie pentru stergerea unui element de pe o pozitie specificata
 void stergereElementPozitie(Nod** cap, int pozitie) {
-	if (*cap == NULL) {
-		return;
-	}
+	
 
 	Nod* temp = *cap;
-	if (pozitie == 0) {
-		*cap = temp->next;
-		free(temp->info.nume);
-		free(temp);
-		return;
-	}
-
 	for (int i = 0; i != NULL && i < pozitie - 1; i++) {
 		temp = temp->next;
-	}
-
-	if (temp == NULL || temp->next == NULL) {
-		return;
 	}
 
 	Nod* urmator = temp->next->next;
 	free(temp->next->info.nume);
 	free(temp->next);
 	temp->next = urmator;
+}
+// Functie pentru stergerea unui in functie de numele dat
+void stergereNodDupaNume(Nod** cap, const char* nume) {
+
+	Nod* temp = *cap;
+	Nod* anterior = NULL;
+
+	while (temp!=NULL && strcmp(temp->info.nume,nume)!=0)
+	{
+		anterior = temp;
+		temp = temp->next;
+	}
+	
+	anterior->next = temp->next;
+	free(temp->info.nume);
+	free(temp);
+	printf("\nNodul cu numele %s a fost sters.\n", nume);
 }
 
 // Functie pentru inserarea unui element la o anumita pozitie
@@ -248,6 +252,13 @@ void main() {
 	printf("\n\n");
 	Angajat angajatMax = angajatCuVarstaMaxima(cap);
 	printf("\n\n Angajatul cu varsta cea mai mare este : %s cu varsta %d ani.", angajatMax.nume, angajatMax.varsta);
+
+	//stergerea unui nod dupa nume
+	stergereNodDupaNume(&cap, "Mihai");
+
+	//afisare lista dupa stergere
+	printf("\nLista dupa stergerea numelui:\n");
+	parcurgereLista(cap);
 
 	stergereElementPozitie(&cap, 2);
 	printf("\n\n Lista dupa stergere: ");

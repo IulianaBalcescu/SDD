@@ -1,3 +1,4 @@
 ﻿  ListaDubla.c
-C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\ExersareSDD\ListaDubluInlantuita(Vasilescu)\ListaDubluInlantuita(Vasilescu)\ListaDubla.c(305,9): warning C4129: 'A': unrecognized character escape sequence
-  ListaDubluInlantuita(Vasilescu).vcxproj -> C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\ExersareSDD\ListaDubluInlantuita(Vasilescu)\x64\Debug\ListaDubluInlantuita(Vasilescu).exe
+C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\SDD\SDD\ListaDubluInlantuita\ListaDubluInlantuita(Vasilescu)\ListaDubla.c(305,9): warning C4129: 'A': unrecognized character escape sequence
+  LINK : C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\SDD\SDD\ListaDubluInlantuita\x64\Debug\ListaDubluInlantuita(Vasilescu).exe not found or not built by the last incremental link; performing full link
+  ListaDubluInlantuita(Vasilescu).vcxproj -> C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\SDD\SDD\ListaDubluInlantuita\x64\Debug\ListaDubluInlantuita(Vasilescu).exe
