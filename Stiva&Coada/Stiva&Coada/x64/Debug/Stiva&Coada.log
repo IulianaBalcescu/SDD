@@ -1,0 +1,4 @@
+﻿  stiva.c
+C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\SDD\SDD\Stiva&Coada\Stiva&Coada\stiva.c(29,47): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\SDD\SDD\Stiva&Coada\Stiva&Coada\stiva.c(30,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Stiva&Coada.vcxproj -> C:\Users\Denisa\OneDrive - Academia de Studii Economice din Bucuresti\Desktop\SDD\SDD\Stiva&Coada\x64\Debug\Stiva&Coada.exe
