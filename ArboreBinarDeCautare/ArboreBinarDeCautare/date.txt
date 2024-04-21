@@ -1,0 +1,8 @@
+LaCostel 6 15
+LaMarcel 2 4
+LaFlorica 8 3
+LaAlex 4 9
+LaSilviu 7 7
+LaMaria 9 12
+LaMama 10 7
+LaCrina 11 12
